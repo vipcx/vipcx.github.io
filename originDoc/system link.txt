@@ -1,0 +1,5 @@
+https://www.jdc51.com/fuintCashier/#/login?redirect=%2Findex
+
+
+https://www.jdc51.com/fuintAdmin/#/login?redirect=%2Findex
+

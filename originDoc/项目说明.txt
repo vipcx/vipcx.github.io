@@ -1,0 +1,23 @@
+1、fuintBackend是java后端源码（包括后台、小程序、收银端的接口），后端安装配置请看后端安装配置说明文档.pdf。
+
+2、fuintUniapp是会员端的前端源码，前端使用HBuilderX导入工程后，需更换小程序id，否则登录和支付会有问题。
+
+3、fuintAdmin是后台的前端源码，确认nodejs是14或16版本，使用webStorm等编辑器导入后执行npm install，npm run dev即可本地跑起来，打包用npm run build:prod，具体看根目录下的README.md说明。
+
+4、fuintCashier是收银的前端源码（windows客户端版本），使用webStorm等编辑器导入后执行yarn install，yarn dev即可跑起来，打包用yarn build即可，在build目录下会生成exe安装文件。
+
+5、fuintCashierWeb是收银的前端源码（web网页版本），使用webStorm等编辑器导入后执行npm install，npm run dev即可本地跑起来，打包用npm run build:prod，具体看根目录下的README.md说明。
+
+6、fuintBackend目录下的说明：
+     1）configure：后端配置文件目录，fuint-application下有dev、prod分别对应开发环境、生产环境。
+     2）db：全部的数据库SQL，包含测试数据。
+     3）fuint-application：项目的应用代码：包含后台接口和小程序接口的全部代码。
+     4）fuint-framework：项目框架代码。
+     5）fuint-repository：项目数据库相关代码。
+     6）fuint-utils：项目工具类代码。
+
+7、必须修改的配置：
+     1）前端：appid，接口地址（会员uniapp端安装配置说明文档.pdf）
+     2）后端：比如是生产则进入/configure/fuint-application/prod，数据库相关配置、redis配置、微信相关配置（weixin.pay.appId、weixin.pay.appSecret不改会影响小程序登录）
+
+如需远程协助请提供向日葵远程号码，谢谢支持！

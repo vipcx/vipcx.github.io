@@ -1,0 +1,14 @@
+
+folder
+
+
+mkdir 会员架构
+mkdir 商品
+mkdir 购物车
+mkdir 促销
+mkdir 订单
+mkdir 售后/投诉
+mkdir短信
+mkdir 楼层
+mkdir 统计
+mkdir 其他
